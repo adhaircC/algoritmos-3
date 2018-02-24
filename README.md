@@ -25,8 +25,15 @@ La secuencia 2, 4, 1, 3, 5 tiene tres inversiones (2, 1), (4, 1), (4, 3).
 
 13
 ### Usar como ejemplo el vector {1, 20, 6, 4, 5}
-
-habrian 3 inversiones
+* {1, 20, 6, 4, 5}
+* {1,20,6}///{4,5}
+* {1,20}//{6}///{4}//{5}
+* {1}/{20}//{6}///{4}//{5}
+...
+* {1,20}//{6}///{4}//{5}
+* {1,6,20}///{4,5} inversion en (20,1)
+* {1,4,5,6,20}inversion en (6,4),(6,5)
+* habrian 3 inversiones
 {20,6}
 {6,4}
 {6,5}
